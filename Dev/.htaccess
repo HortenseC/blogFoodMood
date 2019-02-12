@@ -1,0 +1,44 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteRule ^post-([0-9]+)$   index.php?page=details&id=$1 [L]
+
+
+RewriteRule ^create-post$   index.php?page=createpost [L]
+RewriteRule ^edit-post-([0-9]+)$   index.php?page=editpost&id=$1 [L]
+RewriteRule ^created-post$   index.php?action=createpost [L]
+RewriteRule ^edited-post-([0-9]+)$   index.php?action=editpost&id=$1 [L]
+RewriteRule ^delete-post-([0-9]+)$   index.php?action=deletepost&id=$1 [L]
+
+
+
+RewriteRule ^create-author$   index.php?page=createauthor [L]
+RewriteRule ^created-author$   index.php?action=createauthor [L]
+RewriteRule ^edit-author-([0-9]+)$   index.php?page=editauthor&id=$1 [L]
+RewriteRule ^edited-author-([0-9]+)$   index.php?action=editauthor&id=$1 [L]
+RewriteRule ^delete-author-([0-9]+)$   index.php?action=deleteauthor&id=$1 [L]
+
+RewriteRule ^create-category$   index.php?page=createcategory [L]
+RewriteRule ^created-category$   index.php?action=createcategory [L]
+RewriteRule ^edit-category-([0-9]+)$   index.php?page=editcategory&id=$1 [L]
+RewriteRule ^edited-category-([0-9]+)$   index.php?action=editcategory&id=$1 [L]
+RewriteRule ^delete-category-([0-9]+)$   index.php?action=deletecategory&id=$1 [L]
+
+
+RewriteRule ^login$   index.php?page=login [L]
+RewriteRule ^logged$   index.php?action=login [L]
+RewriteRule ^account$   index.php?page=account [L]
+RewriteRule ^admin$   index.php?page=admin [L]
+
+RewriteRule ^logout$  index.php?stopsession=yes [L]
+
+RewriteRule ^sort-category-([0-9]+)$   index.php?page=sort-by-categories&id=$1 [L]
+
+RewriteRule ^sort-authors-([0-9]+)$   index.php?page=sort-by-authors&id=$1 [L]
+
+RewriteRule ^created-comment-([0-9]+)$   index.php?action=createcomment&id=$1 [L]
+RewriteRule ^delete-comment-([0-9]+)-([0-9]+)$   index.php?action=deletecomment&id=$1&id_post=$2 [L]
+
+</IfModule>

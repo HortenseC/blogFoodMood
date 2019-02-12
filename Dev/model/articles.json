@@ -1,0 +1,35 @@
+[
+  {
+    "userId": 1,
+    "postId": 1,
+    "title": "Marché aux poissons",
+    "author": "Jean-Michel Blanc",
+    "category": "Cuisine asiatique",
+    "date": "24/01/2019",
+    "picture": "img/img6.jpg",
+    "body":"lorem placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodplaceat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+    
+  },
+  {
+    "userId": 2,
+    "postId": 2,
+    "title": "Marché flottant",
+    "author": "Monique Ranoux",
+    "category": "Cuisine traditionnelle",
+    "date": "22/03/2019",
+    "picture": "img/img9.jpg",
+    "body":"lorem placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodplaceat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+
+  },
+  {
+    "userId": 3,
+    "postId": 3,
+    "title": "The Ramen Lovers Club",
+    "author": "Justin Ptitbout",
+    "category": "Cuisine américaine",
+    "date": "12/06/2019",
+    "picture": "img/img5.jpg",
+    "body":"lorem placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodplaceat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+
+  }
+]

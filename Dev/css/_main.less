@@ -1,0 +1,98 @@
+body{
+	background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.45)), url(../img/img1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+header{
+	align-items: center;
+	background-color: @color1;
+	justify-content: space-between;
+}
+
+#logo{
+	align-items: center;
+	padding: 10px;
+	max-width: 50%;
+	@media @laptop{
+	max-width: 30%;	
+	}
+
+}
+
+h1{
+	font-family: @font1;
+	color: @color1;
+	margin-bottom: 40px;
+	padding-top: 20px;
+}
+h2{
+	font-family: @font1;
+	color: @color1;
+	font-size: 2.5em;
+
+}
+.en_tete{
+	span{
+	font-weight: 700;
+	font-size: 2em;
+
+	}
+	p{
+		background-color: rgba(250,250,250 ,0.8);
+		border-radius: 30px;
+		margin: 10px!important;
+		@media @laptop{
+			margin: auto!important;
+			width: 60%;
+
+		}
+	}
+}
+.my-5 .row{
+	background-color: rgba(250,250,250 ,0.8)!important;
+	border-radius: 30px;
+	padding: 15px;
+	margin: auto;
+}
+.social-media{
+	background-color: @color5!important;
+	
+}
+.copyright{
+	background-color: @color4!important;
+}
+footer p{
+	margin-bottom: 0!important;
+}
+// page details---------------------------------------------------
+
+.post_content{
+	background-color: rgba(250,250,250 ,0.7);
+	border-radius: 30px;
+	padding: 15px;
+	margin: auto;
+}
+.post_image{
+	width: 100%;
+	border-radius: 30px;
+	
+}
+form{
+	background-color: rgba(250,250,250 ,1)!important;
+	border-radius: 30px;
+	
+}
+// page login------------------------------------------------------
+.form_login{
+	margin: 75px!important;
+}
+
+.category
+{
+	display: none!important;
+	@media @laptop
+	{
+		display: block!important;
+	}
+}
